@@ -29,11 +29,11 @@ Cada skill del método se auto-activa por su cuenta cuando aplica; esta guía si
 
 | Momento | Qué pasa | Skill del método | Compón con superpowers |
 |---|---|---|---|
-| **Génesis** (arranque) | forma del sistema, restricciones, contrato de dominio, UI, escalonado | `metodo:definir-proyecto` | `brainstorming`, `writing-plans` |
-| **Cada feature/cambio** | descubrir invariantes ocultos; decidir vs preguntar | `metodo:elicitar-requerimientos` | `brainstorming` |
+| **Génesis** (arranque) | forma del sistema, restricciones, contrato de dominio, UI, escalonado | `superdev:definir-proyecto` | `brainstorming`, `writing-plans` |
+| **Cada feature/cambio** | descubrir invariantes ocultos; decidir vs preguntar | `superdev:elicitar-requerimientos` | `brainstorming` |
 | **Construcción** | ejecutar por fases con checkpoints; paralelizar exploración | — | `writing-plans`, `executing-plans`, `subagent-driven-development`, `dispatching-parallel-agents`, `test-driven-development` |
-| **Tras decisión/bug/regla** | persistir el conocimiento (no dejarlo en el chat) | `metodo:contexto-vivo` | — |
-| **Cambios a datos o al contrato** | reversibilidad, compatibilidad, blast-radius | `metodo:entrega-defensiva` | `systematic-debugging` |
+| **Tras decisión/bug/regla** | persistir el conocimiento (no dejarlo en el chat) | `superdev:contexto-vivo` | — |
+| **Cambios a datos o al contrato** | reversibilidad, compatibilidad, blast-radius | `superdev:entrega-defensiva` | `systematic-debugging` |
 | **Antes de dar por terminado** | verificar contra la realidad | — | `verification-before-completion`, `requesting-code-review` |
 
 ## Los tres modos de colaboración
@@ -49,15 +49,15 @@ ciegas cuando aún hay que decidir arquitectura.
 
 ## Principios transversales (toda etapa)
 
-- **Contexto como cimiento:** mantén vivo el `CLAUDE.md` y las memorias → `metodo:contexto-vivo`.
+- **Contexto como cimiento:** mantén vivo el `CLAUDE.md` y las memorias → `superdev:contexto-vivo`.
 - **Verifica contra la realidad:** prueba cada incremento; valida reglas con datos reales.
 - **Defensa por defecto:** asume datos irrecuperables y clientes que no puedes actualizar →
-  `metodo:entrega-defensiva`.
+  `superdev:entrega-defensiva`.
 - **Conciso para ejecutar, extenso para dar contexto:** aporta lo que solo tú sabes.
 
 ## Errores comunes
 
-- Saltar la génesis y empezar a codificar (define primero → `metodo:definir-proyecto`).
+- Saltar la génesis y empezar a codificar (define primero → `superdev:definir-proyecto`).
 - Trabajar siempre en el mismo modo sin notar que el proyecto maduró.
 - Construir todo a la vez en vez de escalonar (sandbox → POC → producción, vertical slice).
-- Olvidar persistir decisiones/bugs (se re-litigan → `metodo:contexto-vivo`).
+- Olvidar persistir decisiones/bugs (se re-litigan → `superdev:contexto-vivo`).

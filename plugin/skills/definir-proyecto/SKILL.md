@@ -19,8 +19,8 @@ restricciones inamovibles**, y **dejar la génesis solo en el chat**, donde se p
 
 - Petición vaga de proyecto nuevo: "ayúdame a empezar", "quiero un sistema/app para…".
 - Antes de recomendar arquitectura, stack o generar código.
-- **No usar** para cambios dentro de un proyecto ya definido (usa `metodo:elicitar-requerimientos`
-  y `metodo:contexto-vivo`).
+- **No usar** para cambios dentro de un proyecto ya definido (usa `superdev:elicitar-requerimientos`
+  y `superdev:contexto-vivo`).
 
 ## La receta de génesis (en orden)
 
@@ -57,13 +57,13 @@ Decide cómo se especifica la UI y déjalo escrito (un `PLAN.md` de pantallas):
 ### Luego: persistir la génesis y escalonar
 
 - **Persiste**: crea/siembra `CLAUDE.md` (mapa + comandos + decisiones fechadas), el `PLAN.md`
-  y el `CONTRATO.md`. → usa `metodo:contexto-vivo`.
+  y el `CONTRATO.md`. → usa `superdev:contexto-vivo`.
 - **Escalona el trabajo (in crescendo): sandbox → POC → producción**, declarando qué valida
   cada etapa. Empieza por un *vertical slice* (un flujo completo de punta a punta) antes de
   ampliar.
 - Para alinear el diseño, invoca `superpowers:brainstorming`. Para convertirlo en un plan por
   fases, invoca `superpowers:writing-plans`. Para elicitar reglas de negocio a fondo, usa
-  `metodo:elicitar-requerimientos`.
+  `superdev:elicitar-requerimientos`.
 
 ## Quick reference
 

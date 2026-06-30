@@ -67,4 +67,4 @@ algo que sirve a clientes vivos.
 - **Reiniciar un servicio en uso** sin medir el blast-radius.
 
 Captura las decisiones de compatibilidad y los procedimientos de rollback como memoria →
-`metodo:contexto-vivo`.
+`superdev:contexto-vivo`.

@@ -23,7 +23,7 @@ riesgo está en los invariantes que no mencionó**. El movimiento valioso NO es 
 - Petición de funcionalidad/cambio en un proyecto existente: "agrégame…", "implementa…",
   "necesito que se pueda…".
 - Antes de diseñar o escribir código de la feature.
-- **No usar** para arranque de proyecto nuevo (usa `metodo:definir-proyecto`).
+- **No usar** para arranque de proyecto nuevo (usa `superdev:definir-proyecto`).
 
 ## El método
 
@@ -60,7 +60,7 @@ antes de darla por buena y registra el resultado numérico.
 
 Toda regla de negocio no obvia (especialmente un invariante como "uno por X, activos e
 inactivos") se escribe como memoria/registro de decisión con su porqué. → usa
-`metodo:contexto-vivo`. Si se queda en el chat, se re-litiga o se re-rompe.
+`superdev:contexto-vivo`. Si se queda en el chat, se re-litiga o se re-rompe.
 
 Para diseño genuinamente abierto, invoca `superpowers:brainstorming`. El resultado de esta
 elicitación alimenta el plan (`superpowers:writing-plans`).
